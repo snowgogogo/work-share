@@ -1,0 +1,31 @@
+{
+  // 显示出隐藏字符，尤其针对于 mac 版本
+  "editor.renderControlCharacters": false,
+  // 是否呈现空白符，all：只要有空白的地方都需要呈现。
+  "editor.renderWhitespace": "all",
+  // 把右边的小地图去掉
+  "editor.minimap.enabled": false,
+  // 预览模式去掉
+  "workbench.editor.enablePreview": false,
+  // 保存格式化
+  "editor.formatOnSave": true,
+  // 确认删除的内容
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  // 配置页面显示
+  "window.zoomLevel": 0,
+  // 对象{}前后没有空格(为了匹配google style eslint)
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+  "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+  // 增加注释
+  "psi-header.templates": [
+    {
+      "language": "*",
+      "template": [
+        "Created: <<filecreated('YYYY-MM-DD h:mm:ss A')>>",
+        "Author: Liam Stock",
+        "Desc: "
+      ]
+    }
+  ]
+}
